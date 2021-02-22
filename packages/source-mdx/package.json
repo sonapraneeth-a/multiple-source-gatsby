@@ -1,0 +1,44 @@
+{
+    "name": "@sonapraneeth/gatsby-source-mdx",
+    "version": "0.0.0",
+    "description": "",
+    "author": "Sona Praneeth Akula <sonapraneeth.akula@gmail.com>",
+    "main": "index.ts",
+    "homepage": "",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme",
+        "gatsby-plugin",
+        "typescript",
+        "mdx"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sonapraneeth-a/sonapraneeth-gatsby-themes.git",
+        "directory": "packages/theme-collection-core"
+    },
+    "bugs": {
+        "url": "https://github.com/sonapraneeth-a/sonapraneeth-gatsby-themes/issues"
+    },
+    "peerDependencies": {
+        "gatsby": "^2.32.4",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    },
+    "dependencies": {
+        "@mdx-js/mdx": "^1.6.22",
+        "@mdx-js/react": "^1.6.22",
+        "@sonapraneeth/gatsby-source-core": "^0.0.0",
+        "gatsby-plugin-mdx": "^1.10.0",
+        "gatsby-remark-copy-linked-files": "^2.10.0",
+        "gatsby-source-filesystem": "^2.11.0",
+        "remark-admonitions": "^1.2.1"
+    },
+    "devDependencies": {
+        "debug": "^4.3.1"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "demo-all",
+    "version": "0.0.0",
+    "description": "",
+    "author": "Sona Praneeth Akula <sonapraneeth.akula@gmail.com>",
+    "main": "index.ts",
+    "homepage": "",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme",
+        "gatsby-plugin",
+        "typescript",
+        "mdx"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sonapraneeth-a/sonapraneeth-gatsby-themes.git",
+        "directory": "packages/theme-collection-core"
+    },
+    "bugs": {
+        "url": "https://github.com/sonapraneeth-a/sonapraneeth-gatsby-themes/issues"
+    },
+    "scripts": {
+        "develop": "gatsby develop",
+        "build": "gatsby build",
+        "build-prefix": "gatsby build --prefix-paths",
+        "clean": "gatsby clean",
+        "prettier": "prettier --write src/**/*.js src/**/*.jsx src/**/*.tsx",
+        "type-check": "tsc --noEmit",
+        "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js"
+    },
+    "dependencies": {
+        "@sonapraneeth/gatsby-theme-blog": "^0.0.0",
+        "@sonapraneeth/gatsby-theme-project": "^0.0.0",
+        "gatsby": "^2.32.4",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    },
+    "devDependencies": {
+        "debug": "^4.3.1"
+    }
+}

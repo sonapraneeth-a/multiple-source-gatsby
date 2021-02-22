@@ -1,0 +1,4 @@
+- Fix sidebar menu items to display when header path is null
+- Updated variants for theme-ui components
+- katex not working
+- 

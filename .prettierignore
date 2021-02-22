@@ -1,0 +1,15 @@
+.cache
+public
+.idea
+.vscode
+.DS_Store
+node_modules
+CHANGELOG.md
+README.md
+*.toml
+results
+.github
+typings.d.ts
+index.d.ts
+LICENSE
+*.txt

@@ -1,0 +1,38 @@
+{
+    "name": "@sonapraneeth/gatsby-theme-blog",
+    "version": "0.0.0",
+    "description": "",
+    "author": "Sona Praneeth Akula <sonapraneeth.akula@gmail.com>",
+    "main": "index.ts",
+    "homepage": "",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme",
+        "gatsby-plugin",
+        "typescript",
+        "mdx"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sonapraneeth-a/sonapraneeth-gatsby-themes.git",
+        "directory": "packages/theme-collection-core"
+    },
+    "bugs": {
+        "url": "https://github.com/sonapraneeth-a/sonapraneeth-gatsby-themes/issues"
+    },
+    "peerDependencies": {
+        "gatsby": "^2.32.4",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    },
+    "dependencies": {
+        "@sonapraneeth/gatsby-source-mdx": "^0.0.0"
+    },
+    "devDependencies": {
+        "debug": "^4.3.1"
+    }
+}
